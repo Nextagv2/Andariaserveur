@@ -24,7 +24,7 @@ export function getDefaultServerMeta(id: string, version: string, options?: Serv
             version: '1.0.0',
             name: `${id} (Minecraft ${version})`,
             description: `${id} Running Minecraft ${version}`,
-            address: 'localhost:25565',
+            address: 'mc57.boxtoplay.com:39325',
             discord: {
                 shortId: '<FILL IN OR REMOVE DISCORD OBJECT>',
                 largeImageText: '<FILL IN OR REMOVE DISCORD OBJECT>',
