@@ -23,7 +23,7 @@ export function getDefaultServerMeta(id: string, version: string, options?: Serv
         meta: {
             version: '1.0.0',
             name: `${id} (Minecraft ${version})`,
-            description: `${id} Running Minecraft ${version}`,
+            description: `${id} Joue sur andaria.boxtoplay.com ${version}`,
             address: 'mc57.boxtoplay.com:39325',
             discord: {
                 shortId: '<FILL IN OR REMOVE DISCORD OBJECT>',
@@ -31,7 +31,7 @@ export function getDefaultServerMeta(id: string, version: string, options?: Serv
                 largeImageKey: '<FILL IN OR REMOVE DISCORD OBJECT>'
             },
             mainServer: false,
-            autoconnect: false
+            autoconnect: true
         }
     }
 
